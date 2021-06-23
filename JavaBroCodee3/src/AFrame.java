@@ -31,6 +31,7 @@ public class AFrame extends JFrame{
 	this.getContentPane().setBackground(Color.blue);
 	//different RGB values gives different colors range 0-255
 	this.getContentPane().setBackground(new Color(36,15,67));
+	//FOR ICON OF THE FRAME
 	this.setIconImage(image.getImage());
 	this.setResizable(false);
 	
