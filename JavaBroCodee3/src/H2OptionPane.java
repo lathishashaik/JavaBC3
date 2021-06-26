@@ -23,7 +23,7 @@ public class H2OptionPane {
 	//String name=JOptionPane.showInputDialog(null, "What is your name?","Title",JOptionPane.QUESTION_MESSAGE);	
 		//System.out.println("Hello "+name);
 		String[] responses= {"No,You're awesome","Thank You!","*blush*"};
-		ImageIcon image=new ImageIcon("C:\\Users\\DELL\\Documents\\Qems Icon Jframe\\smiley.png");
+		ImageIcon image=new ImageIcon("images\\smiley.png");
 		//                          parent comp,   obj msg,        title,        options                             msg type         overrides msg type  overides options  0=>initial alue           ,           
 		JOptionPane.showOptionDialog(null, "You're awesome", "secert message", JOptionPane.YES_NO_CANCEL_OPTION, JOptionPane.INFORMATION_MESSAGE, image, responses, 0);
 		

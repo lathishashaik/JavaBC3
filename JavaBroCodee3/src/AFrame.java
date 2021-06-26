@@ -25,7 +25,7 @@ import java.awt.Color;
 
 }*/
 public class AFrame extends JFrame{
-	ImageIcon image=new ImageIcon("C:\\Users\\DELL\\Documents\\Qems Icon Jframe\\rocket.png");
+	ImageIcon image=new ImageIcon("images\\rocket.png");
 	AFrame(){
 	this.setTitle("This is a title");
 	this.getContentPane().setBackground(Color.blue);

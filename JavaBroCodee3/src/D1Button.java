@@ -22,10 +22,10 @@ public class D1Button  implements ActionListener{
 		JLabel label1=new JLabel("   I'm a Button");
 		label1.setForeground(Color.blue);
 		label1.setFont(new Font("MV Boli",Font.PLAIN,20));
-		ImageIcon image=new ImageIcon("C:\\Users\\DELL\\Documents\\Qems Icon Jframe\\indexfinger.png");
+		ImageIcon image=new ImageIcon("images\\indexfinger.png");
 		label1.setIcon(image);
 		
-		ImageIcon image2=new ImageIcon("C:\\Users\\DELL\\Documents\\Qems Icon Jframe\\happy.png");
+		ImageIcon image2=new ImageIcon("images\\happy.png");
 		label=new JLabel();
 		label.setBounds(200, 250, 120, 140);
 		label.setIcon(image2);

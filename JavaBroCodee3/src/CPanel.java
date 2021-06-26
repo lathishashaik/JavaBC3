@@ -13,7 +13,7 @@ public class CPanel {
 		JPanel panel3=new JPanel();
 		
 		JLabel label1=new JLabel("Hi");
-		ImageIcon image=new ImageIcon("C:\\Users\\DELL\\Documents\\Qems Icon Jframe\\thumbsup.png");
+		ImageIcon image=new ImageIcon("images\\thumbsup.png");
 		label1.setIcon(image);
 		
 		panel1.setBounds(0, 0, 250, 250);

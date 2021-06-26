@@ -52,7 +52,7 @@ public class BLabel{
 	BLabel(){
 		JFrame frame1=new JFrame();
 		JLabel label1=new JLabel("Bro ,do you even code");
-		ImageIcon image=new ImageIcon("C:\\Users\\DELL\\Documents\\Qems Icon Jframe\\dude.png");
+		ImageIcon image=new ImageIcon("images\\dude.png");
 		label1.setForeground(Color.green);
 		label1.setFont(new Font("MV Boli",Font.PLAIN,20));
 		label1.setBackground(Color.black);
