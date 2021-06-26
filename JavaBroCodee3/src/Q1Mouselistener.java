@@ -3,11 +3,12 @@ import java.awt.Color;
 import java.awt.event.*;
 import javax.swing.*;
 
-public class QMouselistener extends JFrame implements MouseListener{
+public class Q1Mouselistener extends JFrame implements MouseListener{
 
 	JLabel label;
 	
-	QMouselistener(){		
+	
+	Q1Mouselistener(){		
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setSize(500,500);
 		this.setLayout(null);	
